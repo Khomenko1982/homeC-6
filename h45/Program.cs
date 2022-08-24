@@ -31,11 +31,9 @@ return array;
 int[] CopyArray(int[] sourceArray)
 {
     int[] destinationArray =new int[sourceArray.Length];
-    for ( int i=0; i< sourceArray.Length ; i++ ) // работаем только с половиной массива, так как для реверса  этого достаточно  
+    for ( int i=0; i< sourceArray.Length ; i++ )  
 {
-    // int temp = array[i]; // темповая переменная для хранения элемента массива
-    // array[i]=array[array.Length - 1 - i]; //замена начальнго элемента на конечный
-    // array[array.Length - 1 - i]=temp;  
+     
     destinationArray[i]=sourceArray[i];
 }
 return destinationArray;
